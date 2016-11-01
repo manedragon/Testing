@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // comentario
         texto = (TextView) findViewById(R.id.texto);
         texto.setText("jojoj");
     }
